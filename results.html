@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ИС-21</title>
+  <link rel="stylesheet" href="css/style.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+     <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+    </script>
+    <script type="text/javascript" src ="text.js"></script>
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <ul>
+  <li>
+    <input type="checkbox" />
+    <div>m</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>y</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>_</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>s</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>u</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>m</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>m</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>e</div>
+  </li>
+  <li>
+    <input type="checkbox" />
+    <div>r</div>
+  </li>
+</ul>
+      
+    </div>
+    <div id="about">
+        <a href="index.html">Главная</a> 
+        <a href="#" onclick="slowScroll('#faq')" title="Информация">Информация</a>
+    </div>
+  </header>
+
+  <div id="top2">
+    <h1 id="top1"><p class="wow1" >
+    <span class="wow" >Достижения
+    <h3 > <p class="wow1" >
+    <span class="wow" >То, чего нет
+    </span></p></h3></span></p></h1>
+   
+  </div>
+
+  <div id="main">
+    <div class="intro" >
+      <h2>Что мы имеем</h2>
+      <span>Как получит балл</span>
+    </div>
+    <div class="text">
+      <span><p class="gain-center">1. Питаясь больничной едой, я смог ВЫЖИТЬ!</p>
+        <p class="gain-center">2. Прочитал много интересных книг.</p>
+        <p class="gain-center">3. Переустановил систему на android.</p>
+     </span>
+    </div>
+  </div>
+
+  <div id="overview2">
+  </div>
+
+  <div id="faq">
+    <div>
+     <p class="gain-center">
+      <span class="title"></span><br>
+         <span class="heading"></span></p>
+        <p class="gain-center"></p>
+    </div>
+    <div>
+     <p class="gain-center">
+      <span class="title">Информация</span><br>
+         <span class="heading">Выполнил: Фомирн Игорь ИС-21</span></p>
+        <p class="gain-center">8-000-000-00-00 </p>
+        <p class="gain-center">absd@gmail.com </p>
+    
+    </div>
+    <div>
+     <p class="gain-center">
+      <span class="title"></span><br>
+         <span class="heading"></span></p>
+      <p class="gain-center"></p>
+     
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+</body>
+</html>
