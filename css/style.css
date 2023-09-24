@@ -444,7 +444,21 @@ margin-top: 10px;
   width: 100%;
   text-align: center;
   color: #fff;
+}
+#overview3 {
+  float: left;
+  background-image: url(STEP.png);
 
+  background-blend-mode: multiply;
+  background-color: #666666;
+  background-size: cover;
+
+
+  padding: 600px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
 #overview2 h2 {font-size: 4em}
 #overview2 h4 {color: #ccc; font-size: 1.5em}
 
